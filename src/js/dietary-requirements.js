@@ -20,6 +20,7 @@
 
     if ('undefined' != typeof module && module.exports) {
         module.exports = sortDietaryRequirements;
+
     } else {
         // when loaded in the browser
         window.sortDietaryRequirements = sortDietaryRequirements;
